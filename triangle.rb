@@ -2,7 +2,10 @@ class Triangle
   def self.check_triangle(side_1, side_2, side_3)
     array = [side_1, side_2, side_3]
     array.sort!
-    p array
+
+    if array[0] == 0 then
+        return "usege: triangle.rb side1 side2 side3"
+    end
     if isEquilateral?(array) then
         return "正三角形ですね！"
     elsif isIsosceles?(array) then
