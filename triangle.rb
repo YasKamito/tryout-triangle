@@ -4,7 +4,7 @@ class Triangle
     array.sort!
 
     if array[0] == 0 then
-        return "usege: triangle.rb side1 side2 side3"
+        return "usage: triangle.rb side1 side2 side3"
     end
     if isEquilateral?(array) then
         return "正三角形ですね！"

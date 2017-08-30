@@ -1,4 +1,4 @@
-# BonusDrink
+# Triangle
 
 ## 問題
 
